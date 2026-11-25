@@ -67,6 +67,7 @@ PIC18F2550-Development-Board/
 ├── Documentation/Design-Overview.md
 ├── README.md
 ├── CHANGELOG.md
+├── LICENSE
 └── .gitignore
 ```
 
@@ -84,4 +85,8 @@ Initial hardware release: [v1.0.0](https://github.com/jassim20/PIC18F2550-Develo
 
 ## License
 
-No license has been selected yet.
+**Copyright (c) 2026 jassim20. All rights reserved.**
+
+The original project materials are published for portfolio and reference purposes. No general permission to reproduce, modify, redistribute, manufacture from, or commercially exploit the protected materials is granted. Prior written permission is required except where applicable law, GitHub's Terms of Service, or applicable third-party licenses provide otherwise.
+
+See [LICENSE](LICENSE) for the full copyright notice.
