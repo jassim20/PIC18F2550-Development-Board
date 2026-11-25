@@ -2,7 +2,7 @@
 
 A compact microcontroller development board designed in Altium Designer for embedded systems prototyping and PIC peripheral experiments.
 
-**Design status:** Schematic and PCB layout prepared; electrical verification and hardware testing not yet confirmed.
+**Design status:** Hardware tested by the designer; design ready for fabrication, according to the designer's verification.
 
 ## Project Overview
 
@@ -16,7 +16,7 @@ The board is based on the Microchip PIC18F2550-I/SP microcontroller in a 28-pin 
 | Power regulation | L7805CV, nominal 5 V output |
 | Power input | DC barrel jack |
 | GPIO expansion | PORT A, PORT B and PORT C headers |
-| Programming | Intended ICSP interface |
+| Programming | ICSP programming interface |
 | Clock | External oscillator header with 22 pF capacitors |
 | Reset | Push button with 10 kΩ pull-up |
 | Indicator | Power LED |
@@ -40,21 +40,21 @@ PIC18F2550-Development-Board/
 └── CHANGELOG.md
 ```
 
-## Verification Roadmap
+## Design Verification & Publication Roadmap
 
 - [x] Schematic captured
 - [x] PCB layout prepared
 - [x] 3D design preview prepared
-- [ ] Review ICSP signal mapping and GPIO net labels against the device pinout
-- [ ] Verify power connections and component footprints
-- [ ] Complete electrical and design rule checks (ERC/DRC)
+- [x] Hardware tested by the designer
+- [x] Design approved for fabrication by the designer
 - [ ] Publish source files and design previews
-- [ ] Validate manufacturing outputs
-- [ ] Assemble and test hardware
+- [ ] Publish manufacturing outputs and supporting documentation
+
+Detailed test results and ERC/DRC reports have not yet been published.
 
 ## Release Status
 
-Initial design documentation. No validated hardware or production-ready release is claimed.
+The hardware design is ready for fabrication based on the designer's reported testing. The repository is being prepared for its first formal release; manufacturing files have not yet been published.
 
 ## License
 
