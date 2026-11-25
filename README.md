@@ -80,7 +80,7 @@ PIC18F2550-Development-Board/
 
 ## Release Status
 
-Initial hardware release: [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0), published on 2026-11-25. The release includes the native design files, design previews and technical documentation. Manufacturing outputs have since been added on `main` for the planned `v1.1.0` release.
+Initial hardware release: [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0), published on 2026-11-25. The release includes the native design files, design previews and technical documentation. Manufacturing outputs are now available in [v1.1.0 — Manufacturing Release](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.1.0), published on 2026-11-25.
 
 ## License
 
