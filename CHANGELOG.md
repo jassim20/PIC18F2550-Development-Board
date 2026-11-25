@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-No additional changes recorded.
+- Added an All Rights Reserved copyright notice and clarified permitted use of the original project materials.
 
 ## [v1.1.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.1.0) - 2026-11-25
 
