@@ -32,4 +32,4 @@ This is a schematic-derived reference, not a procurement BOM.
 
 ## Verification and fabrication
 
-The designer reports that the hardware has been tested and is ready for fabrication. Detailed test records, ERC/DRC reports and production outputs are not included in the supplied materials. The native schematic and PCB are preserved without electrical or layout changes.
+The designer reports that the hardware has been tested and is ready for fabrication. Gerber and NC drill production outputs are available in [Manufacturing](../Manufacturing/README.md). Detailed test records and ERC/DRC reports are not included. The native schematic and PCB are preserved without electrical or layout changes.
