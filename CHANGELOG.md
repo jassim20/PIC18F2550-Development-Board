@@ -2,7 +2,7 @@
 
 ## [Unreleased]
 
-No additional changes recorded.
+- Corrected documented board dimensions to 68 × 46 mm, as approved by the designer. No native design files were changed.
 
 ## [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0) - 2026-11-25
 
