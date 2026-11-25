@@ -1,6 +1,6 @@
 # Hardware Design Overview
 
-The PIC18F2550 development board provides access to microcontroller signals for embedded development and prototyping. The supplied layout shows nominal dimensions of 67 × 45 mm.
+The PIC18F2550 development board provides access to microcontroller signals for embedded development and prototyping. The designer-approved fabrication dimensions are 68 × 46 mm. The earlier PCB preview shows 67 × 45 mm and is retained as a historical design illustration.
 
 ## Functional blocks
 
