@@ -3,6 +3,11 @@
 ## [Unreleased]
 
 - Corrected documented board dimensions to 68 × 46 mm, as approved by the designer. No native design files were changed.
+- Added original Gerber layers, NC drill data, drill report, fabrication ZIP and manufacturing documentation.
+- Verified Git blob hashes for all 17 initially uploaded manufacturing assets against the prepared package.
+- Documented the 97-hole coordinate inspection and the need for final manufacturer DFM review.
+
+Planned release: `v1.1.0`.
 
 ## [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0) - 2026-11-25
 
