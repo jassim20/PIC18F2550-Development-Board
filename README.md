@@ -22,7 +22,7 @@ The board is based on the Microchip PIC18F2550-I/SP microcontroller in a 28-pin 
 | Clock | External oscillator header with 22 pF capacitors |
 | Reset | Push button with 10 kΩ pull-up |
 | Indicator | Power LED |
-| PCB dimensions | 67 × 45 mm (nominal) |
+| PCB dimensions | 68 × 46 mm (designer-approved fabrication dimensions) |
 | Design software | Altium Designer |
 
 ## Design Previews
