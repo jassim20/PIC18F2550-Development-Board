@@ -71,7 +71,7 @@ PIC18F2550-Development-Board/
 
 ## Release Status
 
-First formal release planned: `v1.0.0`. See the repository Releases page for published tags and releases.
+Initial hardware release: [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0), published on 2026-11-25. The release includes the native design files, design previews and technical documentation.
 
 ## License
 
