@@ -43,6 +43,8 @@ The board is based on the Microchip PIC18F2550-I/SP microcontroller in a 28-pin 
 | [PIC18F.PcbDoc](Hardware/PCB/PIC18F.PcbDoc) | Native Altium PCB layout |
 | [Design overview](Documentation/Design-Overview.md) | Functional blocks and component reference |
 | [Changelog](CHANGELOG.md) | Revision history |
+| [Manufacturing files](Manufacturing/README.md) | Gerber and NC drill exports |
+| [Fabrication ZIP](Manufacturing/PIC18F2550-Fabrication.zip) | Packaged PCB fabrication outputs |
 
 The native design files are provided as supplied. Open them in Altium Designer. A separate Altium project file and component libraries are not included.
 
@@ -57,6 +59,11 @@ PIC18F2550-Development-Board/
 │   ├── 01-schematic.png
 │   ├── 02-pcb-2d.png
 │   └── 03-pcb-3d.png
+├── Manufacturing/
+│   ├── Gerber/
+│   ├── NC-Drill/
+│   ├── PIC18F2550-Fabrication.zip
+│   └── README.md
 ├── Documentation/Design-Overview.md
 ├── README.md
 ├── CHANGELOG.md
@@ -67,11 +74,13 @@ PIC18F2550-Development-Board/
 
 - Hardware testing and fabrication readiness are reported by the designer.
 - Schematic, PCB layout and design previews are included.
-- Detailed test records, ERC/DRC reports, procurement BOM, Gerber and NC drill files are not included. Generate and check manufacturing outputs in Altium Designer before ordering boards.
+- Gerber and NC drill exports are included in [Manufacturing/](Manufacturing/README.md), together with a fabrication ZIP.
+- Two copper layers, 68 × 46 mm approved fabrication dimensions, and 97 drill holes across six tool sizes.
+- Detailed test records, ERC/DRC reports and a procurement BOM are not included. Review fabrication files in the manufacturer's viewer and obtain DFM approval before ordering boards.
 
 ## Release Status
 
-Initial hardware release: [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0), published on 2026-11-25. The release includes the native design files, design previews and technical documentation.
+Initial hardware release: [v1.0.0](https://github.com/jassim20/PIC18F2550-Development-Board/releases/tag/v1.0.0), published on 2026-11-25. The release includes the native design files, design previews and technical documentation. Manufacturing outputs have since been added on `main` for the planned `v1.1.0` release.
 
 ## License
 
