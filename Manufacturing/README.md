@@ -14,7 +14,7 @@ Native Gerber and NC drill exports supplied by the designer, generated on 2026-1
 - NC drill: millimetres, 4:4 coordinate format, 97 plated round holes across six tools.
 - All 97 hole centres match flashed pad centres in both copper and both solder mask layers.
 - Drill tool sizes: 0.800 mm (12), 0.830 mm (28), 1.000 mm (43), 1.016 mm (8), 1.270 mm (3), 3.000 mm (3).
-- The profile centreline spans 68 x 46 mm, whereas the earlier PCB preview and project documentation state 67 x 45 mm. Confirm the intended physical board outline in Altium before releasing these manufacturing outputs or ordering boards.
+- The profile centreline spans 68 x 46 mm, which the designer has approved as the fabrication dimensions. The earlier PCB preview shows 67 x 45 mm and is retained as a historical illustration. Confirm the profile in the manufacturer's Gerber viewer before ordering boards.
 
 This is a coordinate and file-content inspection, not a full DFM, ERC or DRC certification. The designer reports the hardware has been tested. No source design or fabrication layer data has been modified.
 
