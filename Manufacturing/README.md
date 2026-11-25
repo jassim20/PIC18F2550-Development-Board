@@ -19,3 +19,7 @@ Native Gerber and NC drill exports supplied by the designer, generated on 2026-1
 This is a coordinate and file-content inspection, not a full DFM, ERC or DRC certification. The designer reports the hardware has been tested. No source design or fabrication layer data has been modified.
 
 The auxiliary `.LDP` file was omitted from public distribution because it contains a local workstation path. The drill report and actual drill data are retained.
+
+## Copyright and use
+
+The original fabrication materials are subject to the repository's [All Rights Reserved notice](../LICENSE). No general permission to manufacture from or commercially exploit protected materials is granted.
