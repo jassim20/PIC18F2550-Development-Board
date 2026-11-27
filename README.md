@@ -44,7 +44,8 @@ The board is based on the Microchip PIC18F2550-I/SP microcontroller in a 28-pin 
 | [Design overview](Documentation/Design-Overview.md) | Functional blocks and component reference |
 | [Changelog](CHANGELOG.md) | Revision history |
 | [Manufacturing files](Manufacturing/README.md) | Gerber and NC drill exports |
-| [Fabrication ZIP](Manufacturing/PIC18F2550-Fabrication.zip) | Packaged PCB fabrication outputs |
+| [Gerber ZIP](Manufacturing/Gerber.zip) | PCB fabrication layer files |
+| [NC Drill ZIP](Manufacturing/NC%20Drill.zip) | PCB drill files |
 
 The native design files are provided as supplied. Open them in Altium Designer. A separate Altium project file and component libraries are not included.
 
@@ -60,9 +61,8 @@ PIC18F2550-Development-Board/
 │   ├── 02-pcb-2d.png
 │   └── 03-pcb-3d.png
 ├── Manufacturing/
-│   ├── Gerber/
-│   ├── NC-Drill/
-│   ├── PIC18F2550-Fabrication.zip
+│   ├── Gerber.zip
+│   ├── NC Drill.zip
 │   └── README.md
 ├── Documentation/Design-Overview.md
 ├── README.md
@@ -75,7 +75,7 @@ PIC18F2550-Development-Board/
 
 - Hardware testing and fabrication readiness are reported by the designer.
 - Schematic, PCB layout and design previews are included.
-- Gerber and NC drill exports are included in [Manufacturing/](Manufacturing/README.md), together with a fabrication ZIP.
+- Gerber and NC drill exports are included in [Manufacturing/](Manufacturing/README.md), as separate ZIP archives.
 - Two copper layers, 68 × 46 mm approved fabrication dimensions, and 97 drill holes across six tool sizes.
 - Detailed test records, ERC/DRC reports and a procurement BOM are not included. Review fabrication files in the manufacturer's viewer and obtain DFM approval before ordering boards.
 
